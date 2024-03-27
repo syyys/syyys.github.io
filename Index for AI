@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>攝影網站首頁</title>
+</head>
+<body>
+    <header>
+        <h1>您的品牌標誌</h1>
+        <p>您的口號</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#services">服務</a></li>
+            <li><a href="#contact">聯繫方式</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="featured-works">
+            <h2>精選作品</h2>
+            <!-- 精選作品的圖片或描述 -->
+        </section>
+        <section id="about">
+            <h2>關於我/團隊介紹</h2>
+            <!-- 團隊介紹的內容 -->
+        </section>
+        <section id="services">
+            <h2>服務與價格</h2>
+            <!-- 服務與價格的詳細列表 -->
+        </section>
+        <section id="testimonials">
+            <h2>客戶評價</h2>
+            <!-- 客戶評價的內容 -->
+        </section>
+        <section id="contact">
+            <h2>聯繫方式</h2>
+            <!-- 聯繫方式的詳細信息 -->
+        </section>
+        <section id="call-to-action">
+            <h2>呼籲行動</h2>
+            <!-- 呼籲行動的按鈕或鏈接 -->
+        </section>
+    </main>
+    <footer>
+        <!-- 頁腳內容，如版權信息、社交媒體鏈接等 -->
+    </footer>
+</body>
+</html>
