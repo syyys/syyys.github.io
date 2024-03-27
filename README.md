@@ -1,6 +1,8 @@
 # syyys.github.io
 temp website hosting使用喼汁功能完成
 
+緊急提先將首頁換圖
+
 網絡功能及地圖
 一個動態嘅button
 滾動電動嘅圖案
