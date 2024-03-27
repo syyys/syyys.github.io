@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>212 Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>212 Studio</h1>
+    </header>
+    <main>
+        <div class="top-bar">
+            <div class="brand-logo">品牌標誌</div>
+            <nav class="navigation-bar">
+                <!-- 導覽列內容 -->
+            </nav>
+        </div>
+        <section class="main-banner">
+            <div class="featured-works">
+                <!-- 精選作品圖或動畫 -->
+            </div>
+            <div class="buttons">
+                <!-- 五個主要工作與服務的按鈕 -->
+            </div>
+        </section>
+        <section class="team-introduction">
+            <h2>關於/團隊介紹</h2>
+            <!-- 團隊介紹內容 -->
+        </section>
+        <section class="client-testimonials">
+            <div class="logo-slide">
+                <!-- 客戶評價的logo滑動展示 -->
+            </div>
+        </section>
+        <section class="services-pricing">
+            <h2>服務與價格</h2>
+            <!-- 服務與價格內容 -->
+        </section>
+        <section class="contact-info">
+            <h2>聯繫方式</h2>
+            <!-- 聯繫方式詳細信息 -->
+        </section>
+    </main>
+    <footer>
+        <!-- 頁腳內容 -->
+    </footer>
+</body>
+</html>
