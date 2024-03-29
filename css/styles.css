@@ -11032,7 +11032,7 @@ section.masthead .masthead-heading {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   section.masthead {
     padding-top: 10.5rem;
     position: relative;
