@@ -10992,7 +10992,7 @@ section.masthead {
   background-image:url("../assets/img/212/member_001_all.JPG");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  /* background-position: center center; */
+  background-position-x: center;
   background-size: contain;
 }
 section.masthead .masthead-subheading {
@@ -11049,8 +11049,7 @@ section.masthead .masthead-heading {
     color: #fff;
     background-image: url(../assets/img/212/member_001_all.JPG);
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    /* background-position: center center; */
+    background-attachment: scroll;   
     background-size: contain;
     background-position-y: 8rem;
 }
@@ -11443,7 +11442,7 @@ header h1{
   background-image: url("../assets/img/212/member_001_all.JPG");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  /* background-position: center center; */
+  
   background-size: cover;
 }
 
