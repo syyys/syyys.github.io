@@ -11017,20 +11017,6 @@ section.masthead .masthead-heading {
     top: 0px !important;
     padding-bottom: 12.5rem;
   }
-  section.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-    filter: drop-shadow(2px 4px 6px black);
-  }
-  section.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-    filter: drop-shadow(2px 4px 6px black);
-  }
 }
 
 @media (min-width: 768px) {
