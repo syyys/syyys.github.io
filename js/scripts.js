@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', event => {
     document.addEventListener('scroll', navbarShrink);
 
     // Get header offset when resize
-    document.addEventListener('resize', mastheadPosition);
+    window.addEventListener('resize', mastheadPosition);
 
     //  Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
