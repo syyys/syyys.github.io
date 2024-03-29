@@ -30,6 +30,7 @@ window.addEventListener('DOMContentLoaded', event => {
     
         const headerOffset = header.offsetTop + header.offsetHeight;
         content.style.top = headerOffset + 'px';
+        console.log("Resize, top:" + top);
     };
 
     // Shrink the navbar 
