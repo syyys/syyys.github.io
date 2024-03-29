@@ -11014,7 +11014,7 @@ section.masthead .masthead-heading {
 
 @media (min-width: 992px) {
   section.masthead {
-    top: 0px;
+    top: 0px !important;
     padding-bottom: 12.5rem;
   }
   section.masthead .masthead-subheading {
