@@ -23,11 +23,23 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
+    // masthead position
+    var mastheadPosition = function() {
+        const header = document.getElementById('mainNav');
+        const content = document.getElementById('banner');
+    
+        const headerOffset = header.offsetTop + header.offsetHeight;
+        content.style.top = headerOffset + 'px';
+    };
+
     // Shrink the navbar 
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
+
+    // Get header offset when resize
+    document.addEventListener('resize', mastheadPosition);
 
     //  Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -51,11 +63,5 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // masthead position
-    const header = document.getElementById('mainNav');
-    const content = document.getElementById('banner');
-
-    const headerOffset = header.offsetTop + header.offsetHeight;
-    content.style.top = headerOffset + 'px';
-
+    
 });
