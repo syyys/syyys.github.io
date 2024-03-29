@@ -51,4 +51,11 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // masthead position
+    const header = document.getElementById('mainNav');
+    const content = document.getElementById('banner');
+
+    const headerOffset = header.offsetTop + header.offsetHeight;
+    content.style.top = headerOffset + 'px';
+
 });
