@@ -46,11 +46,14 @@ function updateDateAndHighlight() {
   }
 }
 
+
 function markCompleted() {
-  let today = new Date().getDay() - 1;
+  let today = new Date().getDay() - 1; // 星期天是0，所以星期一是1
   workouts[today].completed = true;
+  document.getElementById('workoutList').children[today].classList.add('completed');
   updateProgressChart();
 }
+
 
 function drawChart() {
   let data = new google.visualization.DataTable();
