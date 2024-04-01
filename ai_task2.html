@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>紅綠燈結果表單</title>
+</head>
+<body>
+    <h1>紅綠燈結果表單</h1>
+    <form>
+        <label for="light1">紅綠燈 1：</label>
+        <input type="text" id="light1" name="light1"><br>
+
+        <label for="light2">紅綠燈 2：</label>
+        <input type="text" id="light2" name="light2"><br>
+
+        <label for="light3">紅綠燈 3：</label>
+        <input type="text" id="light3" name="light3"><br>
+
+        <label for="light4">紅綠燈 4：</label>
+        <input type="text" id="light4" name="light4"><br>
+
+        <label for="light5">紅綠燈 5：</label>
+        <input type="text" id="light5" name="light5"><br>
+
+        <p>全部綠燈結果：</p>
+        <p id="allGreenResult"></p>
+
+        <p>1 個紅綠燈結果：</p>
+        <p id="oneRedResult"></p>
+
+        <p>2 個紅綠燈結果：</p>
+        <p id="twoRedResult"></p>
+    </form>
+
+    <script>
+        // 假設您使用 JavaScript 來處理輸入結果
+        const lights = document.querySelectorAll('input[type="text"]');
+        const allGreenResult = document.getElementById('allGreenResult');
+        const oneRedResult = document.getElementById('oneRedResult');
+        const twoRedResult = document.getElementById('twoRedResult');
+
+        // 監聽輸入欄位的變化
+        lights.forEach(light => {
+            light.addEventListener('input', updateResults);
+        });
+
+        function updateResults() {
+            const redCount = Array.from(lights).filter(light => light.value.toLowerCase() === 'red').length;
+            const greenCount = Array.from(lights).filter(light => light.value.toLowerCase() === 'green').length;
+
+            allGreenResult.textContent = greenCount === 5 ? 'O' : 'X';
+            oneRedResult.textContent = redCount === 1 ? 'O' : 'X';
+            twoRedResult.textContent = redCount === 2 ? 'O' : 'X';
+        }
+    </script>
+</body>
+</html>
